@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pisilinux.org/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>maven3-bin</Name>
+        <Homepage>http://maven.apache.org</Homepage>
+        <Packager>
+            <Name>Mete Alpaslan</Name>
+            <Email>mete@pardus.org.tr</Email>
+        </Packager>
+        <License>Apache-2.0</License>
+        <IsA>app:console</IsA>
+        <Summary>Java-based build tool</Summary>
+        <Description>Apache Maven is a Java-based build tool that can be used for building and managing any Java-based project.</Description>
+        <Archive sha1sum="5aec23e2c32238e85da536f2f4ec49449a215339" type="zip">http://ftp.itu.edu.tr/Mirror/Apache/maven/maven-3/3.1.0/binaries/apache-maven-3.1.0-bin.zip</Archive>
+        <BuildDependencies>
+            <Dependency>sun-jdk</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>maven3-bin</Name>
+        <RuntimeDependencies>
+            <Dependency>sun-jdk</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="config">/etc/env.d/31maven3</Path>
+                <Path fileType="executable">/usr/bin</Path>
+                <Path fileType="executable">/opt</Path>
+                <Path fileType="doc">/usr/share/doc</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/etc/env.d/31maven3">31maven3</AdditionalFile>
+        </AdditionalFiles>
+    </Package>
+
+    <History>
+        <Update release="2">
+            <Date>2013-08-23</Date>
+            <Version>3.1.0</Version>
+            <Comment>Version Bump.</Comment>
+            <Name>Alihan Öztürk</Name>
+            <Email>alihan.ozturk@fenerbahce.com.tr</Email>
+        </Update>
+        <Update release="1">
+            <Date>2009-04-07</Date>
+            <Version>2.0.10</Version>
+            <Comment>First Release</Comment>
+            <Name>Mete Alpaslan</Name>
+            <Email>mete@pardus.org.tr</Email>
+        </Update>
+    </History>
+</PISI>
