@@ -17,7 +17,7 @@
             <Dependency>mesa-glu-devel</Dependency>
             <Dependency>qt-devel</Dependency>
         </BuildDependencies>
-        <Archive sha1sum="524ac07dbc0e583e193640da74e2b4aba7d20838" type="tarbz2">/home/alihan/İndirilenler/fraqtive-0.4.6.tar.bz2</Archive>
+        <Archive sha1sum="524ac07dbc0e583e193640da74e2b4aba7d20838" type="tarbz2">http://sourceforge.net/projects/fraqtive/files/latest/download?source=pdlp</Archive>
     </Source>
     <Package>
         <Name>fraqtive</Name>
