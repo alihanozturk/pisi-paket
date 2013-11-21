@@ -1,0 +1,9 @@
+<PISI>
+    <Source>
+        <Name>fraqtive2</Name>
+        <Summary xml:lang="tr">Fraktal oluşturucu</Summary>
+        <Description xml:lang="tr">Fraqtive,açık kaynak kodlu ve Mandelbrot fraktal ailesi için bir çoklu-platform grafik uygulamasıdır.</Description>
+    </Source>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->
