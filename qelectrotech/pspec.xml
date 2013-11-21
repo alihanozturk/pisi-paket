@@ -16,7 +16,7 @@
         <BuildDependencies>
             <Dependency>qt-devel</Dependency>
         </BuildDependencies>
-        <Archive sha1sum="2f1ccab240e3baa6f47330c416724f1369a0745a" type="targz">/home/alihan/İndirilenler/qelectrotech-0.3-src.tar.gz</Archive>
+        <Archive sha1sum="2f1ccab240e3baa6f47330c416724f1369a0745a" type="targz">http://download.tuxfamily.org/qet/tags/20130928/qelectrotech-0.3-src.tar.gz</Archive>
     </Source>
     <Package>
         <Name>qelectrotech</Name>
