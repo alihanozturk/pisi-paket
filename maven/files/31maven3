@@ -1,2 +1,0 @@
-M2_HOME=/opt/maven
-MAVEN_OPTS=-Xms256m -Xmx512m
