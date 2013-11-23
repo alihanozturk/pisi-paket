@@ -27,7 +27,8 @@
             <Dependency>qt-webkit</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="all">/</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share</Path>
         </Files>
     </Package>
     <History>
