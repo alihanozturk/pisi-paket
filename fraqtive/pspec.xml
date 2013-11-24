@@ -28,7 +28,8 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="all">/</Path>
+            <Path fileType="data">/usr/share</Path>
+            <Path fileType="executable">/usr/bin</Path>
         </Files>
     </Package>
     <History>
