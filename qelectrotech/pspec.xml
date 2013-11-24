@@ -25,7 +25,8 @@
             <Dependency>shared-mime-info</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="all">/</Path>
+            <Path fileType="local">/usr/local</Path>
+            <Path fileType="data">/usr/share</Path>
         </Files>
     </Package>
     <History>
