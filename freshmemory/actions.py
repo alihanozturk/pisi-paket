@@ -5,6 +5,7 @@
 # See the file http://www.gnu.org/copyleft/gpl.txt
 
 from pisi.actionsapi import qt4
+from pisi.actionsapi import pisitools
 
 def setup():
     qt4.configure()
@@ -14,3 +15,5 @@ def build():
 
 def install():
     qt4.install()
+    
+    pisitools.removeDir("etc/xdg")

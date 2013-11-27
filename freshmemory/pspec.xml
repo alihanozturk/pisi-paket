@@ -25,12 +25,11 @@
         </RuntimeDependencies>
         <Files>
             <Path fileType="config">/etc</Path>
-            <Path fileType="config">/etc/freshmemory</Path>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="data">/usr/share</Path>
         </Files>
         <AdditionalFiles>
-            <AdditionalFile owner="root" permission="0644" target="etc/freshmemory/freshmemory.ini">freshmemory.ini</AdditionalFile>
+            <AdditionalFile owner="root" permission="0644" target="/etc/freshmemory/freshmemory.ini">freshmemory.ini</AdditionalFile>
         </AdditionalFiles>
     </Package>
     <History>
