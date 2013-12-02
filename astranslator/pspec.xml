@@ -13,7 +13,7 @@
         <IsA>app:gui</IsA>
         <Summary>Google Translator application</Summary>
         <Description>astranslator translates text via Google Translate engine.</Description>
-        <Archive sha1sum="efe1edc69057fc18fd644c426254cda7c2f3be5f"  type="zip">/home/alihan/İndirilenler/ASTranslator-master.zip</Archive>
+        <Archive sha1sum="efe1edc69057fc18fd644c426254cda7c2f3be5f"  type="zip">https://github.com/AlexSnet/ASTranslator/archive/master.zip</Archive>
         <BuildDependencies>
              <Dependency>qt-devel</Dependency>
         </BuildDependencies>
