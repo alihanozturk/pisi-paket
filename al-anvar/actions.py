@@ -5,10 +5,9 @@
 # See the file http://www.gnu.org/copyleft/gpl.txt
 
 from pisi.actionsapi import qt4
-from pisi.actionsapi import get
 
 def setup():
-    qt4.configure("prefix=/usr/local --bindir=$(prefix)/bin")
+    qt4.configure()
 
 def build():
     qt4.make()
