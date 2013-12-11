@@ -40,7 +40,6 @@
         <AdditionalFiles>
             <AdditionalFile owner="root" permission="0644" target="/usr/lib/mdic/dictionaries/Babylon_English.m2">Babylon_English.m2</AdditionalFile>
             <AdditionalFile owner="root" permission="0644" target="/usr/lib/mdic/dictionaries/Babylon_English_French.m2">Babylon_English_French.m2</AdditionalFile>
-            <AdditionalFile owner="root" permission="0644" target="/usr/lib/mdic/dictionaries/Babylon_French_English.m2">Babylon_French_English.m2</AdditionalFile>
             <AdditionalFile owner="root" permission="0644" target="/usr/lib/mdic/dictionaries/Generic_English_Persian.m2">Generic_English_Persian.m2</AdditionalFile>
             <AdditionalFile owner="root" permission="0644" target="/usr/lib/mdic/dictionaries/hFarsi_Advanced_English-Persian.m2">hFarsi_Advanced_English-Persian.m2</AdditionalFile>
             <AdditionalFile owner="root" permission="0644" target="/usr/lib/mdic/dictionaries/longman.m2">longman.m2</AdditionalFile>
