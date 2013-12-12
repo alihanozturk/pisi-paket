@@ -17,7 +17,7 @@
             <Dependency>aspell-devel</Dependency>
             <Dependency>qt-devel</Dependency>
         </BuildDependencies>
-        <Archive sha1sum="d8f49b5f125b4bea19ac1108c0aa1be87a3c8cd9" type="targz">/home/alihan/İndirilenler/mdic-0.8.1.tar.gz</Archive>
+        <Archive sha1sum="d8f49b5f125b4bea19ac1108c0aa1be87a3c8cd9" type="targz">http://sourceforge.net/projects/mdic/files/MDic/0.8.1/mdic-0.8.1.tar.gz/download</Archive>
         <Patches>
             <Patch level="1">desktop.patch</Patch>
         </Patches>
